@@ -6,6 +6,7 @@
 ## stores a matrix and caches its inverse.
 ## This function creates a special "matrix" object that can cache its inverse.
 
+
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
@@ -20,6 +21,10 @@ makeCacheMatrix <- function(x = matrix()) {
        setInverse = setInverse,
        getInverse = getInverse)
 }
+
+
+
+
 
 
 ## This function computes the inverse of the special "matrix" created by 
